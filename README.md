@@ -89,7 +89,7 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/walmart-sales-analysis.git
+   git clone https://github.com/Darshita-dp/walmart-sales-analysis.git
    ```
 
 2. Install dependencies:
