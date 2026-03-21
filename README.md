@@ -8,6 +8,14 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 
 ---
 
+## 📊 Dataset
+
+- Source: Walmart Sales Dataset from Kaggle  
+- Contains ~10,000 transactions  
+- Includes features such as branch, city, category, unit price, quantity, payment method, rating, and sales data  
+
+---
+
 ## 🧰 Tools & Technologies
 
 - Python (Pandas)
@@ -61,11 +69,18 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 ## 📁 Project Structure
 
 ```
-|-- data/                     # Raw and cleaned data  
-|-- sql_queries/              # SQL scripts for analysis  
-|-- notebooks/                # Python notebooks for data cleaning  
-|-- README.md                 # Project documentation  
-|-- requirements.txt          # Python dependencies  
+|-- data/  
+│   ├── walmart_raw.csv  
+│   └── walmart_clean.csv  
+
+|-- notebooks/  
+│   └── walmart_analysis.ipynb  
+
+|-- sql/  
+│   └── walmart_queries.sql  
+
+|-- README.md  
+|-- requirements.txt  
 ```
 
 ---
@@ -74,7 +89,7 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/your-username/walmart-sales-analysis.git
    ```
 
 2. Install dependencies:
@@ -85,11 +100,11 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 3. Set up PostgreSQL database:
    - Create a database (e.g., `walmart_db`)
 
-4. Run Python script/notebook:
+4. Run Python notebook:
    - Clean data  
    - Load into PostgreSQL  
 
-5. Run SQL queries from `sql_queries` folder  
+5. Run SQL queries from the `sql/` folder  
 
 ---
 
