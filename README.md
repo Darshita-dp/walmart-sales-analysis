@@ -49,20 +49,33 @@ The data was cleaned and processed using Python, stored in PostgreSQL, and analy
 
 ## 📊 Key Insights
 
-- Branch C generated the highest revenue, indicating strong overall sales performance compared to other branches.  
-- Cash was the most frequently used payment method, showing customer preference for direct transactions.  
-- Certain product categories contributed significantly higher profit, making them key drivers of business value.  
-- Afternoon time periods showed the highest number of transactions, indicating peak customer activity.  
-- Some branches experienced a decline in revenue from 2022 to 2023, suggesting possible operational or demand-related issues.  
-- Customer ratings were generally consistent, but slight variations across categories may indicate differences in product satisfaction.  
+- **Credit Card** was the most used payment method with **4,260 transactions**, followed by E-wallet (3,911) and Cash (1,880), indicating strong preference for digital payments.
+
+- **Electronic Accessories** and **Food & Beverages** frequently appeared as top-rated categories across branches, with some categories reaching average ratings as high as **9.3**, showing strong customer satisfaction in these segments.
+
+- Sales activity was **highest during Afternoon hours**, consistently showing more transactions compared to Morning and Evening across multiple branches.
+
+- **Home and Lifestyle** generated the highest total revenue (**~49,196**) and highest profit (**~19,325**), making it the most valuable category for the business.
+
+- Revenue distribution across branches shows a **top branch generating ~25,732 in revenue**, highlighting performance gaps between high and low-performing branches.
+
+- **E-wallet** emerged as the most preferred payment method across the majority of branches, even when credit card had higher total volume overall.
+
+- Average transaction value varied across branches, with the top branch reaching **~182.73 per transaction**, indicating differences in customer spending behavior. 
 
 ---
 
 ## 🚀 Business Interpretation
 
-- High-performing branches can be used as benchmarks to improve operations in lower-performing locations.  
-- Categories with higher profit contribution should be prioritized in inventory planning and marketing strategies.  
-- Revenue decline in certain branches should be investigated further to identify root causes such as pricing, demand shifts, or customer experience issues.  
+- The strong usage of credit cards and e-wallets suggests that Walmart should continue investing in seamless digital payment infrastructure and promotions tied to these methods.
+
+- High-performing categories like **Home and Lifestyle** should be prioritized in inventory planning, pricing strategy, and marketing campaigns to maximize profitability.
+
+- Afternoon peak sales indicate an opportunity to optimize staffing, promotions, and operational efficiency during high-demand hours.
+
+- Variation in branch-level revenue and transaction value highlights the need to analyze underperforming branches and replicate strategies from top-performing locations.
+
+- Consistently high ratings in specific categories suggest strong product-market fit, which can be leveraged for upselling and cross-selling strategies. 
 
 ---
 
